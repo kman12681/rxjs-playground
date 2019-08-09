@@ -1,0 +1,43 @@
+<mat-toolbar class="home-header"
+  ><mat-toolbar-row>
+    <span><h1>RxJS Playground</h1></span>
+  </mat-toolbar-row>
+
+  <mat-toolbar-row>
+    <span
+      ><p>
+        Click below to explore the different ways in which RxJS can enrich your
+        web experiences.
+      </p></span
+    >
+  </mat-toolbar-row>
+</mat-toolbar>
+<div class="home">
+  <span class="link">
+    <app-page-link
+      [title]="'Search Reddit Videos'"
+      [icon]="'reddit'"
+      [page]="'/search'"
+    ></app-page-link>
+  </span>
+  <span class="link"
+    ><app-page-link
+      [title]="'Timer'"
+      [icon]="'stopWatch'"
+      [page]="'/timer'"
+    ></app-page-link>
+  </span>
+  <span class="link"
+    ><app-page-link [title]="'Example 3'"></app-page-link>
+  </span>
+  <span class="link"
+    ><app-page-link [title]="'Example 4 with a Long Name'"></app-page-link>
+  </span>
+  <span class="link"
+    ><app-page-link [title]="'Calculator'"></app-page-link>
+  </span>
+  <span class="link"
+    ><app-page-link [title]="'This Does Something Cool'"></app-page-link>
+  </span>
+  <span class="link"><app-page-link [title]="'Yep'"></app-page-link> </span>
+</div>

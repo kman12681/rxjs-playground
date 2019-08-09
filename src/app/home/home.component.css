@@ -1,0 +1,29 @@
+.home {
+  height: 100%;
+  background: #fffffb;
+}
+
+.link {
+  width: 200px;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.home-header {
+  background-color: #5b5f97;
+  position: sticky;
+  position: -webkit-sticky; /* For macOS/iOS Safari */
+  top: 0; /* Sets the sticky toolbar to be on top */
+  z-index: 1000; /* Ensure that your app's content doesn't overlap the toolbar */
+}
+
+h1 {
+  font-size: 3rem;
+  color: #fffffb;
+  text-shadow: 1px 1px black;
+}
+
+p {
+  color: #fffffb;
+  font-family: 'Arial', Helvetica, sans-serif;
+}

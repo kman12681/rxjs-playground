@@ -1,0 +1,39 @@
+.page-header {
+    color: #fffffb;
+    background-color: #ff6b6c;
+  }
+  
+  .page-title {
+    font-size: 3rem;
+    text-shadow: 1px 1px slategrey;
+  }
+  
+  .page-description {
+    font-family: 'Arial', Helvetica, sans-serif;
+  }
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.routerLink {
+  color: black;
+}
+
+.start-button {
+  background-color: #ffc145;
+  width: 33%;
+  margin-top: 50px;
+  margin-left: 33%;
+  margin-right: 33%;
+}
+
+.timer {
+  text-align: center;
+  width: 50%;
+  margin-top: 50px;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 4rem;
+  font-family: 'Arial', Helvetica, sans-serif;
+}

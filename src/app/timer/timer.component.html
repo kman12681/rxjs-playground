@@ -1,0 +1,18 @@
+<mat-toolbar class="page-header">
+  <mat-toolbar-row>
+    <span><h1 class="page-title">Timer</h1></span>
+    <span class="spacer"></span><span><app-home-link></app-home-link></span>
+  </mat-toolbar-row>
+
+  <mat-toolbar-row>
+    <span
+      ><p class="page-description">
+        Use this like a stopwatch.
+      </p>
+    </span>
+  </mat-toolbar-row>
+</mat-toolbar>
+<button class="start-button" mat-raised-button (click)="onClick($event)">
+  {{ isRunning ? 'Pause Timer' : 'Start Timer' }}
+</button>
+<div class="timer">{{ seconds }}</div>
